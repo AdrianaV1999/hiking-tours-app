@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,12 +11,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${menuOpen ? "menu-open" : ""}`}>
       <div className="logo">
-        <img src={logo} alt="Logo" />
+        <Link to="/">
+          <img src={logo} alt="Logo" />
+        </Link>
       </div>
 
-      <div className={`nav-links ${menuOpen ? "open" : ""}`}>
+      <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li>
           <a href="#home" onClick={() => setMenuOpen(false)}>
             Home
@@ -36,7 +39,7 @@ const Navbar = () => {
             Reservation
           </a>
         </li>
-      </div>
+      </ul>
 
       <div
         className={`hamburger ${menuOpen ? "open" : ""}`}
