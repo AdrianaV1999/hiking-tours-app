@@ -3,6 +3,7 @@ import "./AboutUsPage.scss";
 import about from "../assets/about.png";
 import Navbar from "../components/Navbar";
 import Advantages from "../components/Advantages";
+import Footer from "../components/Footer";
 
 const AboutUsPage = () => {
   return (
@@ -42,6 +43,7 @@ const AboutUsPage = () => {
         </div>
       </section>
       <Advantages />
+      <Footer />
     </>
   );
 };

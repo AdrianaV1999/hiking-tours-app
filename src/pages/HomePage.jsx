@@ -5,6 +5,7 @@ import AboutUs from "../components/AboutUs";
 import Advantages from "../components/Advantages";
 import Benefits from "../components/Benefits";
 import Gallery from "../components/Gallery";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Advantages />
       <Benefits />
       <Gallery />
+      <Footer />
     </div>
   );
 };
