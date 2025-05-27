@@ -9,33 +9,33 @@ import img5 from "../assets/galerija5.jpg";
 const slides = [
   {
     image: img1,
-    country: "Switzerland",
+    country: "Matterhorn",
     description:
-      "Switzerland offers breathtaking views of the Alps, peaceful mountain villages, and sparkling lakes. Enjoy winter sports, scenic train rides, and world-class chocolate in one of Europe's cleanest and most organized countries.",
+      "The Matterhorn, located in the Swiss Alps, is one of the most iconic peaks in the world. With its striking pyramid shape, it captivates climbers and photographers alike as a symbol of pure alpine beauty.",
   },
   {
     image: img2,
-    country: "Italy",
+    country: "Dolomites",
     description:
-      "Italy is a dream destination for lovers of history, art, and gastronomy. From the canals of Venice and the ruins of Rome to the rolling hills of Tuscany, every corner invites you to explore, taste, and fall in love with La Dolce Vita.",
+      "The Dolomites in northern Italy are known for their dramatic peaks, sheer cliffs, and pink-hued sunsets. These UNESCO-listed mountains are a paradise for hikers, skiers, and lovers of breathtaking landscapes.",
   },
   {
     image: img3,
-    country: "Norway",
+    country: "Lofoten Mountains",
     description:
-      "Norway enchants with its majestic fjords, dramatic cliffs, and the magical northern lights. Discover picturesque fishing villages, glacier hikes, and the unique beauty of a country where nature truly reigns.",
+      "The Lofoten Mountains in Norway rise sharply from the sea, creating a surreal combination of rugged cliffs and serene fjords. They offer a magical Arctic experience with midnight sun and northern lights.",
   },
   {
     image: img4,
-    country: "Japan",
+    country: "Mount Fuji",
     description:
-      "Japan is a perfect harmony of tradition and technology. Experience ancient temples, tranquil gardens, cherry blossoms in spring, and futuristic cities like Tokyo where culture and innovation coexist.",
+      "Mount Fuji is Japan’s most famous mountain, a near-perfect cone rising above the clouds. Revered in art and culture, it offers peaceful trails, cherry blossoms, and unforgettable sunrise views.",
   },
   {
     image: img5,
-    country: "New Zealand",
+    country: "Aoraki / Mount Cook",
     description:
-      "New Zealand captivates with its epic landscapes, from towering mountains and deep fjords to lush rainforests and golden beaches. Ideal for adventure seekers, nature lovers, and fans of The Lord of the Rings.",
+      "Aoraki / Mount Cook is New Zealand’s highest peak, towering over glacial valleys and turquoise lakes. It's a dream destination for climbers, stargazers, and anyone seeking raw, untouched beauty.",
   },
 ];
 

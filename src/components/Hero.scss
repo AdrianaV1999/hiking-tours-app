@@ -60,14 +60,15 @@
       padding: 1rem 1.6rem;
       background-color: transparent;
       color: #fff;
-      border: 1pt solid white;
+      border: 2pt solid white;
       border-radius: 30px;
       font-size: 1.07rem;
       transition: background-color 0.3s ease;
       cursor: pointer;
 
       &:hover {
-        border-width: 2pt;
+        background-color: #ffffff;
+        color: black;
       }
 
       svg {

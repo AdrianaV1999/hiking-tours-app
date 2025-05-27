@@ -17,10 +17,7 @@ const Hero = () => {
           explore untouched wilderness. Join us for unforgettable hiking
           experiences all around the world.
         </p>
-        <button className="btn">
-          Book Your Tour
-          <FaArrowRight />
-        </button>
+        <button className="btn">Book Your Tour</button>
       </div>
       <div className="image-grid-wrapper">
         <div className="image-grid">
