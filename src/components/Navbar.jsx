@@ -20,14 +20,14 @@ const Navbar = () => {
 
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <a href="#home" onClick={() => setMenuOpen(false)}>
+          <Link to="/" onClick={() => setMenuOpen(false)}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#about" onClick={() => setMenuOpen(false)}>
-            About
-          </a>
+          <Link to="/about" onClick={() => setMenuOpen(false)}>
+            About Us
+          </Link>
         </li>
         <li>
           <a href="#tours" onClick={() => setMenuOpen(false)}>
@@ -37,6 +37,11 @@ const Navbar = () => {
         <li>
           <a href="#reservation" onClick={() => setMenuOpen(false)}>
             Reservation
+          </a>
+        </li>
+        <li>
+          <a href="#reservation" onClick={() => setMenuOpen(false)}>
+            Gallery
           </a>
         </li>
       </ul>
